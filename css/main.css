@@ -1,3 +1,206 @@
-/*
- * Estilos de tu proyecto
- */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+.conteiner-header {
+  width: 1366px;
+  height: 542px;
+  position: relative;
+  display: flex;
+  box-shadow: inset 0 3em #76278F;
+}
+.conteiner-header img {
+  width: 100%;
+  margin-top: -100px;
+  margin-bottom: -110px;
+}
+.conteiner-header .shadow{
+  box-shadow: inset 0 500px #76278F;
+}
+.logo-white {
+  position: absolute;
+  justify-content: flex-start;
+  margin-top: 34px;
+  margin-left: 87px;
+  width: 67px;
+}
+.logo-white img {
+  margin: 0;
+}
+.menu-log {
+  position: absolute;
+  flex-direction: row;
+  display: flex;
+  justify-content: flex-end;
+  width: 1366px;
+  color: white;
+}
+.menu-log h2 {
+  font-weight: 400;
+  font-size: 18px;
+}
+.log-in {
+  border: 1px solid white;
+  border-radius: 8px;
+  width: 95px;
+  height: 43px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 185px;
+  margin-top: 38px;
+}
+.help{
+  margin-top: 50px;
+  padding-right: 48px;
+}
+.explore{
+  margin-top: 51px;
+  padding-right: 21px;
+}
+.drive {
+  margin-top: 51px;
+  padding-right: 46px;
+}
+.conteiner-white{
+  position: absolute;
+  display: flex;
+  width: 1366px;
+  justify-content: flex-end;
+  margin-top: 119px;
+}
+.box-white {
+  position: absolute;
+  width: 497px;
+  height: 364px;
+  background-color: white;
+  padding-top: 58px;
+  padding-left: 64px;
+}
+.box-white h1 {
+  color: #352384;
+  margin-top: 0;
+  margin-bottom: -8px;
+  font-size: 39px;
+}
+.box-white h4{
+  color: #352384;
+  font-size: 14px;
+  margin-top: 17px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+.phone{
+  color: #b4b4b4;
+  margin-top: 32px;
+  margin-bottom: 0;
+  font-size: 14px;
+}
+.space {
+  border-top: 1px solid #352384;
+  margin-top: 7px;
+}
+.box-white button {
+  color: white;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff00bf;
+  border: 0;
+  border-radius: 10px;
+  width: 168px;
+  height: 50px;
+  margin-top: 34px;
+  margin-left: 1px;
+}
+.button-pink {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 21px;
+}
+.button-pink h5 {
+  color: #728099;
+  text-decoration: underline;
+  font-size: 16px;
+  padding-top: 23px;
+  padding-left: 20px;
+}
+.final-box {
+  font-size: 9.5px;
+  font-weight: 60;
+  color: #728099;
+  margin-top: 11px;
+}
+.about-app {
+  position: absolute;
+  width: 1366px;
+  height: 643px;
+  background: linear-gradient(#76278F, #2B1E66);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.about-text {
+  width: 600px;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  color: white;
+  padding-top: 88px;
+  padding-left: 50px;
+  margin-right: 10px;
+}
+.ride {
+  display: block;
+}
+.about-text .ride h2 {
+  margin: 0;
+  font-size: 29px;
+  letter-spacing: -0.8px;
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+.about-text .ride p {
+  font-size: 15.5px;
+  margin-bottom: -13px;
+}
+.about-text .serious h2 {
+  font-size: 29px;
+  letter-spacing: -0.8px;
+  font-weight: 600;
+  margin-top: 79px;
+  margin-bottom: 17px;
+}
+.about-text .serious p {
+  font-size: 15.5px;
+  margin-bottom: -13px;
+}
+.about-text .drivers {
+  margin-top: 79px;
+}
+.about-text .drivers h2 {
+  font-size: 29px;
+  letter-spacing: -0.8px;
+  font-weight: 600;
+  margin: -1px 0 0 0;
+}
+.about-text .drivers p {
+  font-size: 15.5px;
+  padding-right: 100px;
+  margin-bottom: 10px;
+}
+.cell-image {
+  display: flex;
+  width: 683px;
+  height: 100%;
+  justify-content: flex-end;
+  padding-top: 80px;
+  margin-left: -200px;
+}
+.cell-image img {
+  margin-left: -300px;
+  padding-right: 59px;
+  height: 500px;
+  width: auto;
+}
